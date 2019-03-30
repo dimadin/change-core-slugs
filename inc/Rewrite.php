@@ -22,6 +22,7 @@ class Rewrite {
 	 * @since 1.0.0
 	 */
 	public static function change() {
+		/** @var \WP_Rewrite $wp_rewrite */
 		$wp_rewrite = $GLOBALS['wp_rewrite'];
 
 		foreach ( Settings::get_all() as $base => $base_settings ) {
@@ -54,6 +55,7 @@ class Rewrite {
 	 * @param \WP_Query $query The WP_Query instance.
 	 */
 	public static function set_feed( $query ) {
+		/** @var \WP_Rewrite $wp_rewrite */
 		$wp_rewrite = $GLOBALS['wp_rewrite'];
 
 		$feed = $query->get( 'feed' );
