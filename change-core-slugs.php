@@ -5,7 +5,7 @@
  * Description: Set custom permalink slugs instead of default ones.
  * Author:      Milan Dinić
  * Author URI:  https://milandinic.com/
- * Version:     1.0.0-beta-1
+ * Version:     1.0.0
  * Text Domain: change-core-slugs
  * Domain Path: /languages/
  *
