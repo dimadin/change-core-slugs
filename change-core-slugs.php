@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: Change Core Slugs
+ * Plugin URI:  https://milandinic.com/wordpress/plugins/change-core-slugs/
  * Description: Set custom permalink slugs instead of default ones.
  * Author:      Milan Dinić
  * Author URI:  https://milandinic.com/
